@@ -1,0 +1,71 @@
+<!-- Aula 05: Formatando fonte tipografia -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Aula 05</title>
+</head>
+<body>
+    <div class="container-fluid row flex border border-primary p-3 m-3">
+        <h1>Boot<span class="small">strap</span></h1>
+        <p class="text-center"><span class="text-uppercase">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. <!-- text-center centraliza o texto, text-uppercase deixa o texto em maisculo -->
+            Quae esse, sed blanditiis harum doloribus nam ab adipisci, 
+            labore omnis est ipsum repudiandae quo dolore voluptates accusantium officia nemo vel distinctio?
+        </p>
+        <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. <!-- text-capitalize deixa a primeira letra de cada palavra em maisculo -->
+            Quae esse, sed blanditiis harum doloribus nam ab adipisci, 
+            labore omnis est ipsum repudiandae quo dolore voluptates accusantium officia nemo vel distinctio?
+        </p>
+        <p class="text-break">Lorem ipsum dolor sit amet consectetur adipisicing elit. <!-- text-break quebra o texto em uma linha -->
+            Quae esse, sed blanditiis harum doloribus nam ab adipisci, 
+            labore omnis est ipsum repudiandae quo dolore voluptates accusantium officia nemo vel distinctio?
+        </p>
+        <p class="text-light-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. <!-- text-light-emphasis deixa o texto em uma cor mais clara -->
+            Quae esse, sed blanditiis harum doloribus nam ab adipisci, 
+            labore omnis est ipsum repudiandae quo dolore voluptates accusantium officia nemo vel distinctio?
+        </p>
+    </div>
+
+    <div class="container-fluid row flex border border-primary p-3 m-3">
+        <div class="container-fluid col border m-1">
+            <h1><abbr title="Curso de Bootstrap de aula número 5">Bootstrap</abbr></h1>
+            <h2>Bootstrap</h2>
+            <h3>Bootstrap</h3>
+            <h4>Bootstrap</h4>
+            <h5>Bootstrap</h5>
+            <h6>Bootstrap</h6>
+        </div>
+        <div class="container-fluid col border m-1">
+            <p class="h1">Bootstrap</p> <!-- as tags <p> recebem as propriedas de h1 à h6 pelas as classes -->
+            <p class="h2">Bootstrap</p>
+            <p class="h3">Bootstrap</p>
+            <p class="h4">Bootstrap</p>
+            <p class="h5">Bootstrap</p>
+            <p class="h6">Bootstrap</p>
+        </div>
+    </div>
+
+    <div class="container-fluid row flex border border-primary p-3 m-3">
+        <div class="container-fluid col border m-1">
+            <h1>Boot<span class="small">strap</span></h1> <!-- a tag <span> recebe a classe small, que deixa o texto menor -->
+            <h2>Bootstrap</h2>
+            <h3>Bootstrap</h3>
+            <h4>Bootstrap</h4>
+            <h5>Bootstrap</h5>
+            <h6>Bootstrap</h6>
+        </div>
+        <div class="container-fluid col border m-1">
+            <p class="display-1">Bootstrap</p> <!-- as tags <p> recebem as propriedas de display, são maiores e um visual diferente ao título -->
+            <p class="display-2">Bootstrap</p>
+            <p class="display-3">Bootstrap</p>
+            <p class="display-4">Bootstrap</p>
+            <p class="display-5">Bootstrap</p>
+            <p class="display-6">Bootstrap</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf/tYuDzDzIyZVXqVZjHsB4/RXHl+PuJYgYy0o+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP" crossorigin="anonymous"></script>
+</body>
+</html>
